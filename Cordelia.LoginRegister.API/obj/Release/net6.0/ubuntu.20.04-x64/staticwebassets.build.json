@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fI+XoRqoThgcSX9rz+VLLS+qX2nT1xG9aLK4JXwnFCs=",
+  "Source": "Cordelia.LoginRegister.API",
+  "BasePath": "_content/Cordelia.LoginRegister.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

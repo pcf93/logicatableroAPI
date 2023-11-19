@@ -1,0 +1,71 @@
+﻿using Cordelia.LoginRegister.Application.DTO;
+using Cordelia.LoginRegister.Application.Services.Abstraction;
+using Cordelia.LoginRegister.Domain.Model;
+using Cordelia.LoginRegister.Infraestructure.Data;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Cordelia.LoginRegister.API.Controllers
+{
+    [Route("api")]
+    [ApiController]
+    public class UserController : ControllerBase
+    {
+
+        private readonly IUserService _service;
+
+        public UserController(IUserService service)
+        {
+            _service = service;
+        }
+
+        [HttpGet]
+        [Route("users/{id}")]
+        public async Task<ActionResult<User>> GetUserById(int id)
+        {
+            var result = await _service.GetUserById(id);
+
+            if (result is null) return BadRequest();
+
+            return Ok(result);
+        }
+
+        [HttpGet]
+        [Route("users/email/{email}")]
+        public async Task<ActionResult<User>> GetUserByEmail(string email)
+        {
+            var result = await _service.GetIdByUsername(email);
+
+            if (result == 0) return BadRequest();
+
+            return Ok(result);
+        }
+
+
+        [HttpPost]
+        [Route("login")]
+        public async Task<ActionResult<User?>> Login(UserLoginDto loginData)
+        {
+            var result = await _service.UserLogin(loginData);
+
+            if (result is null) return BadRequest();
+
+            return Ok(result);
+        }
+
+        [HttpPost]
+        [Route("register")]
+        public async Task<ActionResult<User?>> Register(UserRegisterDto newUser)
+        {
+            var result = await _service.UserRegister(newUser);
+
+            if (result is null) return BadRequest();
+
+            return Ok(result);
+        }
+
+
+
+
+
+    }
+}

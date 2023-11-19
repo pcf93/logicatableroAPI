@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cordelia.LoginRegister.API.props" />
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\bin\Debug\net6.0\Enfonsalaflota.Application.deps.json
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\bin\Debug\net6.0\Enfonsalaflota.Application.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\bin\Debug\net6.0\Enfonsalaflota.Application.pdb
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\bin\Debug\net6.0\Enfonsalaflota.Domain.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\bin\Debug\net6.0\Enfonsalaflota.Domain.pdb
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\Enfonsalaflota.Application.csproj.AssemblyReference.cache
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\Enfonsalaflota.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\Enfonsalaflota.Application.AssemblyInfoInputs.cache
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\Enfonsalaflota.Application.AssemblyInfo.cs
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\Enfonsalaflota.Application.csproj.CoreCompileInputs.cache
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\Enfonsalaflota.Application.csproj.CopyComplete
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\Enfonsalaflota.Application.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\refint\Enfonsalaflota.Application.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\Enfonsalaflota.Application.pdb
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Application\obj\Debug\net6.0\ref\Enfonsalaflota.Application.dll

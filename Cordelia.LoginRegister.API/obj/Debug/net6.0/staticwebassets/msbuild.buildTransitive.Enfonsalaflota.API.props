@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Enfonsalaflota.API.props" />
+</Project>

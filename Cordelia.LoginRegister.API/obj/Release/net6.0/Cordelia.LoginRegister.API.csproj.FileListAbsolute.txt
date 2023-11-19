@@ -1,0 +1,120 @@
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\appsettings.Development.json
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\appsettings.json
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.exe
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.deps.json
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.runtimeconfig.json
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.pdb
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Humanizer.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.OpenApi.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Mono.TextTemplating.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Npgsql.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\System.CodeDom.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\System.Text.Encodings.Web.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\System.Text.Json.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Application.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Domain.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Infraestructure.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Infraestructure.pdb
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Application.pdb
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Domain.pdb
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.csproj.AssemblyReference.cache
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.AssemblyInfoInputs.cache
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.AssemblyInfo.cs
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.csproj.CoreCompileInputs.cache
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets\msbuild.Cordelia.LoginRegister.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets\msbuild.build.Cordelia.LoginRegister.API.props
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.Cordelia.LoginRegister.API.props
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.Cordelia.LoginRegister.API.props
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\scopedcss\bundle\Cordelia.LoginRegister.API.styles.css
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.csproj.CopyComplete
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\refint\Cordelia.LoginRegister.API.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.pdb
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.genruntimeconfig.cache
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\ref\Cordelia.LoginRegister.API.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\appsettings.Development.json
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\appsettings.json
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.exe
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.deps.json
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.runtimeconfig.json
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.API.pdb
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Humanizer.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Microsoft.OpenApi.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Mono.TextTemplating.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Npgsql.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\System.CodeDom.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\System.Text.Json.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Application.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Domain.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Infraestructure.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Infraestructure.pdb
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Application.pdb
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\bin\Release\net6.0\Cordelia.LoginRegister.Domain.pdb
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.csproj.AssemblyReference.cache
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.AssemblyInfoInputs.cache
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.AssemblyInfo.cs
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.csproj.CoreCompileInputs.cache
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets\msbuild.Cordelia.LoginRegister.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets\msbuild.build.Cordelia.LoginRegister.API.props
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.Cordelia.LoginRegister.API.props
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.Cordelia.LoginRegister.API.props
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\scopedcss\bundle\Cordelia.LoginRegister.API.styles.css
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.csproj.CopyComplete
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\refint\Cordelia.LoginRegister.API.dll
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.pdb
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\Cordelia.LoginRegister.API.genruntimeconfig.cache
+C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.API\obj\Release\net6.0\ref\Cordelia.LoginRegister.API.dll
