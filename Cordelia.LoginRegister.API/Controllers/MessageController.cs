@@ -1,6 +1,7 @@
 ﻿using Cordelia.LoginRegister.Application.DTO;
 using Cordelia.LoginRegister.Application.Services.Abstraction;
 using Cordelia.LoginRegister.Domain.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cordelia.LoginRegister.API.Controllers;
@@ -15,7 +16,7 @@ public class MessageController : ControllerBase
     public MessageController(IMessageService service) { _service = service; }
 
 
-    [HttpGet]
+    [HttpGet, Authorize]
     [Route("messages")]
 
     public async Task<ActionResult<List<Message>>> GetAllMessages()
@@ -30,7 +31,7 @@ public class MessageController : ControllerBase
         return Ok(result);
     }
 
-    [HttpGet]
+    [HttpGet, Authorize]
     [Route("received/{id}")]
 
     public async Task<ActionResult<List<Message>>> MessagesReceivedById(int id)
@@ -45,7 +46,7 @@ public class MessageController : ControllerBase
         return Ok(result);
     }
 
-    [HttpGet]
+    [HttpGet, Authorize]
     [Route("sent/{id}")]
 
     public async Task<ActionResult<List<Message>>> MessagedReceivedById(int id)
@@ -60,7 +61,7 @@ public class MessageController : ControllerBase
         return Ok(result);
     }
 
-    [HttpPost]
+    [HttpPost, Authorize]
     [Route("add")]
 
     public async Task<ActionResult<Message>> InsertNewMessage(MessageInsertDto message)
@@ -72,7 +73,7 @@ public class MessageController : ControllerBase
         return Ok(result);
     }
 
-    [HttpPut]
+    [HttpPut, Authorize]
     [Route("changeStatus/{messageId}")]
 
     public async Task<ActionResult<Message>> ChangeStatus(int messageId)
@@ -85,7 +86,7 @@ public class MessageController : ControllerBase
 
     }
 
-    [HttpDelete]
+    [HttpDelete, Authorize]
     [Route("delete/{messageId}")]
 
     public async Task<ActionResult<Message>> DeleteMessage(int messageId)

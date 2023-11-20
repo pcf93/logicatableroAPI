@@ -31,9 +31,9 @@ namespace Cordelia.LoginRegister.API.Controllers
 
         [HttpGet]
         [Route("users/email/{email}")]
-        public async Task<ActionResult<User>> GetUserByEmail(string email)
+        public async Task<ActionResult<User>> GetUserByEmail(string userName)
         {
-            var result = await _service.GetIdByUsername(email);
+            var result = await _service.GetIdByUsername(userName);
 
             if (result == 0) return BadRequest();
 
@@ -43,7 +43,7 @@ namespace Cordelia.LoginRegister.API.Controllers
 
         [HttpPost]
         [Route("login")]
-        public async Task<ActionResult<User?>> Login(UserLoginDto loginData)
+        public async Task<ActionResult<string>> Login(UserLoginDto loginData)
         {
             var result = await _service.UserLogin(loginData);
 

@@ -20,7 +20,7 @@ public interface IUserService
     /// </summary>
     /// <param name="loginData"></param>
     /// <returns></returns>
-    Task<User?> UserLogin(UserLoginDto loginData);
+    Task<string> UserLogin(UserLoginDto loginData);
 
 
     /// <summary>

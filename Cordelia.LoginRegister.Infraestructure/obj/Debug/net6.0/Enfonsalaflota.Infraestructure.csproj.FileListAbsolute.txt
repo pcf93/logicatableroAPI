@@ -17,3 +17,22 @@ C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordeli
 C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.pdb
 C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.genruntimeconfig.cache
 C:\Users\pcflo\Downloads\practica_api_cordelia_pau\practica_api_cordelia\Cordelia.LoginRegister\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\ref\Enfonsalaflota.Infraestructure.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\bin\Debug\net6.0\Enfonsalaflota.Infraestructure.deps.json
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\bin\Debug\net6.0\Enfonsalaflota.Infraestructure.runtimeconfig.json
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\bin\Debug\net6.0\Enfonsalaflota.Infraestructure.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\bin\Debug\net6.0\Enfonsalaflota.Infraestructure.pdb
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\bin\Debug\net6.0\Enfonsalaflota.Application.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\bin\Debug\net6.0\Enfonsalaflota.Domain.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\bin\Debug\net6.0\Enfonsalaflota.Application.pdb
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\bin\Debug\net6.0\Enfonsalaflota.Domain.pdb
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.AssemblyInfo.cs
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.csproj.CopyComplete
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\refint\Enfonsalaflota.Infraestructure.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.pdb
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\Enfonsalaflota.Infraestructure.genruntimeconfig.cache
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.Infraestructure\obj\Debug\net6.0\ref\Enfonsalaflota.Infraestructure.dll

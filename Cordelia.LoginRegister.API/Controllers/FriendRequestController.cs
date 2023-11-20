@@ -3,6 +3,7 @@ using Cordelia.LoginRegister.Domain.Model;
 using Enfonsalaflota.Application.DTO;
 using Enfonsalaflota.Application.Services.Abstraction;
 using Enfonsalaflota.Domain.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,7 +17,7 @@ namespace Enfonsalaflota.API.Controllers
 
         public FriendRequestController(IFriendRequestService service) { _service = service; }
 
-        [HttpGet]
+        [HttpGet, Authorize]
         [Route("friendRequests/{id}")]
 
         public async Task<ActionResult<List<FriendRequest>>> GetFriendRequestsById(int id)
@@ -31,7 +32,7 @@ namespace Enfonsalaflota.API.Controllers
             return Ok(result);
         }
 
-        [HttpGet]
+        [HttpGet, Authorize]
         [Route("friends/{id}")]
 
         public async Task<ActionResult<List<FriendRequest>>> GetFriendsById(int id)
@@ -46,7 +47,7 @@ namespace Enfonsalaflota.API.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost, Authorize]
         [Route("addFriendRequest")]
 
         public async Task<ActionResult<FriendRequest>> InsertFriendRequest(FriendRequestInsertDto friendRequest)
@@ -61,7 +62,7 @@ namespace Enfonsalaflota.API.Controllers
             return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPut, Authorize]
         [Route("accept/{friendRequestId}")]
 
         public async Task<ActionResult<FriendRequest>> ChangeStatusToAccept(int friendRequestId)

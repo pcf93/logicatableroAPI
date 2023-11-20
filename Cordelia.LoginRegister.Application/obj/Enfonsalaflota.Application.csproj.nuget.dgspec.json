@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Application\\Enfonsalaflota.Application.csproj": {}
+    "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Application\\Enfonsalaflota.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Application\\Enfonsalaflota.Application.csproj": {
+    "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Application\\Enfonsalaflota.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Application\\Enfonsalaflota.Application.csproj",
+        "projectUniqueName": "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Application\\Enfonsalaflota.Application.csproj",
         "projectName": "Enfonsalaflota.Application",
-        "projectPath": "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Application\\Enfonsalaflota.Application.csproj",
-        "packagesPath": "C:\\Users\\pcflo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Application\\obj\\",
+        "projectPath": "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Application\\Enfonsalaflota.Application.csproj",
+        "packagesPath": "C:\\Users\\p.carbonell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pcflo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\p.carbonell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj": {
-                "projectPath": "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj"
+              "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj": {
+                "projectPath": "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj"
               }
             }
           }
@@ -47,6 +47,14 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
@@ -65,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj": {
+    "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj",
         "projectName": "Enfonsalaflota.Domain",
-        "projectPath": "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj",
-        "packagesPath": "C:\\Users\\pcflo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pcflo\\Downloads\\practica_api_cordelia_pau\\practica_api_cordelia\\Cordelia.LoginRegister\\Cordelia.LoginRegister.Domain\\obj\\",
+        "projectPath": "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Domain\\Enfonsalaflota.Domain.csproj",
+        "packagesPath": "C:\\Users\\p.carbonell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pcflo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\p.carbonell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

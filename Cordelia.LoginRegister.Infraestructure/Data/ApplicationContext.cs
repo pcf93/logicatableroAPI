@@ -12,7 +12,7 @@ public class ApplicationContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.HasDefaultSchema("public");
+        modelBuilder.HasDefaultSchema("pcfapi");
         base.OnModelCreating(modelBuilder);
 
         modelBuilder.Entity<User>()

@@ -34,6 +34,17 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
         return await query.ToListAsync();
 
     }
+    public IQueryable<TEntity> GetQueryable(Expression<Func<TEntity, bool>> filter = null)
+    {
+        IQueryable<TEntity> query = _dbSet;
+
+        if (filter != null)
+        {
+            query = query.Where(filter);
+        }
+
+        return query;
+    }
 
     public async Task<TEntity?> GetByIdAsync(object id)
     {

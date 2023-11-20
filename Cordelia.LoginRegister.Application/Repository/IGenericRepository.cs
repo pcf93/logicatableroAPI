@@ -25,5 +25,7 @@ namespace Cordelia.LoginRegister.Application.Repository
         public Task Delete(object id);
 
         public void Delete(TEntity entityToDelete);
+
+        public IQueryable<TEntity> GetQueryable(Expression<Func<TEntity, bool>> filter = null);
     }
 }
