@@ -31,8 +31,8 @@ builder.Services.Configure<IpRateLimitOptions>(options =>
         new RateLimitRule
         {
             Endpoint = "POST:/api/Message/add",
-            Period = "1d",
-            Limit = 3
+            Period = "20s",
+            Limit = 1
         }
     };
 });

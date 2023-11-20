@@ -30,8 +30,8 @@ namespace Cordelia.LoginRegister.API.Controllers
         }
 
         [HttpGet]
-        [Route("users/email/{email}")]
-        public async Task<ActionResult<User>> GetUserByEmail(string userName)
+        [Route("users/userName/{userName}")]
+        public async Task<ActionResult<User>> GetUserByUserName(string userName)
         {
             var result = await _service.GetIdByUsername(userName);
 
