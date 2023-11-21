@@ -18,5 +18,7 @@ namespace Enfonsalaflota.Application.Services.Abstraction
         Task<FriendRequest?> InsertFriendRequest(FriendRequestInsertDto friendRequest);
 
         Task<FriendRequest> AcceptFriendRequestAsync(int friendRequestId);
+
+        Task<FriendRequest> RefuseFriendRequestAsync(int friendRequestId);
     }
 }

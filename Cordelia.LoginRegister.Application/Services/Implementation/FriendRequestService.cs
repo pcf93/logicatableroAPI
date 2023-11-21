@@ -86,5 +86,18 @@ namespace Enfonsalaflota.Application.Services.Implementation
             return await Task.FromResult(friendRequest);
 
         }
+
+        public async Task<FriendRequest> RefuseFriendRequestAsync(int friendRequestId)
+        {
+
+            var friendRequest = await _friendRequestRepository.GetByIdAsync(friendRequestId);
+
+            _friendRequestRepository.Delete(friendRequest);
+
+            await _unitOfWork.SaveAsync();
+
+            return await Task.FromResult(friendRequest);
+
+        }
     }
 }
