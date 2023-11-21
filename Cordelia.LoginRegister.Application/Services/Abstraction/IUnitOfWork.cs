@@ -16,6 +16,8 @@ public interface IUnitOfWork : IDisposable
 
     public IGenericRepository<FriendRequest> GetFriendRequestRepository();
 
+    public IGenericRepository<Match> GetMatchRepository();
+
     public Task SaveAsync();
 
 }

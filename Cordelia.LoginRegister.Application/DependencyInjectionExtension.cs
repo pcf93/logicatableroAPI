@@ -15,6 +15,7 @@ public static class DependencyInjectionExtension
         services.AddScoped<IUserService, UserService>();
         services.AddScoped<IMessageService, MessageService>();
         services.AddScoped<IFriendRequestService, FriendRequestService>();
+        services.AddScoped<IMatchService, MatchService>();
 
         return services;
 
