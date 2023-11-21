@@ -15,5 +15,7 @@ namespace Enfonsalaflota.Application.Services.Abstraction
 
         Task<Match> CreateMatchmakingMatch(MatchCreateDto newMatch);
 
+        Task<Match> JoinMatchmakingMatch(MatchJoinDto matchToJoin);
+
     }
 }

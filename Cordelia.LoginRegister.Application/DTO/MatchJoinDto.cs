@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Enfonsalaflota.Application.DTO;
 
-public class MatchCreateDto
-{ 
+public class MatchJoinDto
+{
+    public int Player2Id { get; set; }
 
-    public int Player1Id { get; set; }
-
-    public int[] ArrayPlayer1 { get; set; }
-
+    public int[] ArrayPlayer2 { get; set; }
 }

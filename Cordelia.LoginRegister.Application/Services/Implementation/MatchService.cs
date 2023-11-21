@@ -27,7 +27,7 @@ namespace Enfonsalaflota.Application.Services.Implementation
         public async Task<Match> GetMatchmakingMatch()
         {
 
-            var match = await _matchRepository.GetAsync(x => x.MatchStartType == MatchStartType.Matchmaking && x.ArrayPlayer2.Length == 0);
+            var match = await _matchRepository.GetAsync(x => x.MatchStartType == MatchStartType.Matchmaking && x.ArrayPlayer2 == null);
 
             return await Task.FromResult(match.FirstOrDefault());
 
@@ -38,8 +38,8 @@ namespace Enfonsalaflota.Application.Services.Implementation
             var matchToCreate = new Match()
             {
                 Player1Id = newMatch.Player1Id,
-                Player2Id = newMatch.Player2Id,
                 ArrayPlayer1 = newMatch.ArrayPlayer1,
+                Player2Id = newMatch.Player1Id,
                 MatchStatus = MatchStatus.Pendent,
                 MatchStartType = MatchStartType.Matchmaking
 
@@ -49,6 +49,24 @@ namespace Enfonsalaflota.Application.Services.Implementation
             await _unitOfWork.SaveAsync();
 
             return await Task.FromResult(matchToCreate);
+        }
+
+        public async Task<Match> JoinMatchmakingMatch(MatchJoinDto matchToJoin)
+        {
+
+            var matchResult = await _matchRepository.GetAsync(x => x.MatchStartType == MatchStartType.Matchmaking && x.ArrayPlayer2 == null);
+
+            var match = matchResult.FirstOrDefault();
+
+            match.ArrayPlayer2 = matchToJoin.ArrayPlayer2;
+            match.Player2Id = matchToJoin.Player2Id;
+            match.MatchStatus = MatchStatus.Iniciat;
+
+            _matchRepository.Update(match);
+            await _unitOfWork.SaveAsync();
+
+            return await Task.FromResult(match);
+
         }
 
     }

@@ -43,5 +43,21 @@ public class MatchController : ControllerBase
         return Ok(result);
     }
 
+    [HttpPut]
+    [Route("joinMatchmaking")]
+
+    public async Task<ActionResult<Match>> JoinMatchmakingMatch(MatchJoinDto matchToJoin)
+    {
+        var result = await _service.JoinMatchmakingMatch(matchToJoin);
+
+        if (result is null)
+        {
+            return BadRequest();
+        }
+
+        return Ok(result);
+
+    }
+
 
 }
