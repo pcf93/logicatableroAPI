@@ -75,6 +75,19 @@ namespace Enfonsalaflota.API.Controllers
 
         }
 
+        [HttpDelete, Authorize]
+        [Route("refuse/{friendRequestId}")]
+
+        public async Task<ActionResult<FriendRequest>> DeleteFriendRequest(int friendRequestId)
+        {
+            var result = await _service.RefuseFriendRequestAsync(friendRequestId);
+
+            if (result is null) { return BadRequest(); }
+
+            return Ok(result);
+
+        }
+
 
     }
 
