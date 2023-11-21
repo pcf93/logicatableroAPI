@@ -1,5 +1,6 @@
 ﻿using Cordelia.LoginRegister.Application.Repository;
 using Cordelia.LoginRegister.Application.Services.Abstraction;
+using Enfonsalaflota.Application.DTO;
 using Enfonsalaflota.Application.Services.Abstraction;
 using Enfonsalaflota.Domain.Model;
 using System;
@@ -30,6 +31,24 @@ namespace Enfonsalaflota.Application.Services.Implementation
 
             return await Task.FromResult(match.FirstOrDefault());
 
+        }
+
+        public async Task<Match> CreateMatchmakingMatch(MatchCreateDto newMatch)
+        {
+            var matchToCreate = new Match()
+            {
+                Player1Id = newMatch.Player1Id,
+                Player2Id = newMatch.Player2Id,
+                ArrayPlayer1 = newMatch.ArrayPlayer1,
+                MatchStatus = MatchStatus.Pendent,
+                MatchStartType = MatchStartType.Matchmaking
+
+            };
+
+            await _matchRepository.InsertAsync(matchToCreate);
+            await _unitOfWork.SaveAsync();
+
+            return await Task.FromResult(matchToCreate);
         }
 
     }

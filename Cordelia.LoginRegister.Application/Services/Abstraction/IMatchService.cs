@@ -1,4 +1,5 @@
-﻿using Enfonsalaflota.Domain.Model;
+﻿using Enfonsalaflota.Application.DTO;
+using Enfonsalaflota.Domain.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,8 @@ namespace Enfonsalaflota.Application.Services.Abstraction
     {
 
         Task<Match> GetMatchmakingMatch();
+
+        Task<Match> CreateMatchmakingMatch(MatchCreateDto newMatch);
 
     }
 }

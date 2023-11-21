@@ -1,4 +1,5 @@
-﻿using Enfonsalaflota.Application.Services.Abstraction;
+﻿using Enfonsalaflota.Application.DTO;
+using Enfonsalaflota.Application.Services.Abstraction;
 using Enfonsalaflota.Domain.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -27,5 +28,20 @@ public class MatchController : ControllerBase
 
         return Ok(result);
     }
+
+    [HttpPost]
+    [Route("createMatchmaking")]
+    public async Task<ActionResult<Match>> CreateMatchmakingMatch(MatchCreateDto newMatch)
+    {
+        var result = await _service.CreateMatchmakingMatch(newMatch);
+
+        if (result is null)
+        {
+            return BadRequest();
+        }
+
+        return Ok(result);
+    }
+
 
 }
