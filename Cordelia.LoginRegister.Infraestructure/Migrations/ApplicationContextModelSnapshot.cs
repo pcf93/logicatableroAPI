@@ -8,7 +8,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Cordelia.LoginRegister.Infraestructure.Migrations
+namespace Enfonsalaflota.Infraestructure.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
     partial class ApplicationContextModelSnapshot : ModelSnapshot
@@ -17,7 +17,7 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasDefaultSchema("public")
+                .HasDefaultSchema("pcfapi")
                 .HasAnnotation("ProductVersion", "7.0.12")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
@@ -55,7 +55,7 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
 
                     b.HasIndex("MessageSenderId");
 
-                    b.ToTable("Message", "public");
+                    b.ToTable("Message", "pcfapi");
                 });
 
             modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.User", b =>
@@ -66,6 +66,18 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("UserId"));
 
+                    b.Property<bool>("DarkMode")
+                        .HasColumnType("boolean");
+
+                    b.Property<byte[]>("PasswordHash")
+                        .HasColumnType("bytea");
+
+                    b.Property<byte[]>("PasswordSalt")
+                        .HasColumnType("bytea");
+
+                    b.Property<string>("SecretKet")
+                        .HasColumnType("text");
+
                     b.Property<DateTime>("UserBirthDate")
                         .HasColumnType("timestamp with time zone");
 
@@ -75,14 +87,17 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
                     b.Property<string>("UserEmail")
                         .HasColumnType("text");
 
-                    b.Property<string>("UserName")
-                        .HasColumnType("text");
+                    b.Property<int>("UserLanguageId")
+                        .HasColumnType("integer");
 
-                    b.Property<string>("UserPassword")
+                    b.Property<string>("UserName")
                         .HasColumnType("text");
 
                     b.Property<string>("UserPhone")
                         .HasColumnType("text");
+
+                    b.Property<int>("UserTypeId")
+                        .HasColumnType("integer");
 
                     b.HasKey("UserId");
 
@@ -92,7 +107,7 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
                     b.HasIndex("UserName")
                         .IsUnique();
 
-                    b.ToTable("User", "public");
+                    b.ToTable("User", "pcfapi");
                 });
 
             modelBuilder.Entity("Enfonsalaflota.Domain.Model.FriendRequest", b =>
@@ -118,7 +133,7 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
 
                     b.HasIndex("FriendRequestSenderId");
 
-                    b.ToTable("FriendRequest", "public");
+                    b.ToTable("FriendRequest", "pcfapi");
                 });
 
             modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.Message", b =>

@@ -19,4 +19,8 @@
     <ProjectReference Include="..\Cordelia.LoginRegister.Application\Enfonsalaflota.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using OtpNet;
 using System.IdentityModel.Tokens.Jwt;
 using System.Reflection.Metadata;
 using System.Security.Claims;
@@ -89,6 +90,25 @@ public class UserService : IUserService
 
         return await Task.FromResult(result);
 
+    }
+
+    public async Task<string?> GenerateSecretKeyAsync(int usuarioId)
+    {
+        var user = _userRepository.GetEntityContext().FirstOrDefault(user => user.UserId == usuarioId);
+
+        var secretKeyString = "";
+        
+        if (user != null)
+        {
+            var secretKey = KeyGeneration.GenerateRandomKey();
+            secretKeyString = Convert.ToBase64String(secretKey);
+            user.SecretKet = secretKeyString;
+
+            await _unitOfWork.SaveAsync();
+
+        }
+
+        return await Task.FromResult(secretKeyString);
     }
 
     public async Task<User?> UserRegister(UserRegisterDto newUser)

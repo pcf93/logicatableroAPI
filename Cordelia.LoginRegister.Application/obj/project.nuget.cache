@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WKPmOH+F8V7ZO1QJATuKjdifGX+h8Oo4bCub8iEf9sgbi+O70GvlI6IeHcY2rvxDWwzUN7k4oX09/63Nup/8eg==",
+  "dgSpecHash": "ebKuoJGmi2ULf3thCLKIIKWedgtiRH/x/PxSReMve7F55UDW5HpEQjDV6ZCB9XhIeXbYzx7fo4EXR0Qyu3vrpw==",
   "success": true,
   "projectFilePath": "C:\\Users\\p.carbonell\\OneDrive - Innovation Strategies S.L\\Documents\\logicatableroAPI\\Cordelia.LoginRegister.Application\\Enfonsalaflota.Application.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\p.carbonell\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
     "C:\\Users\\p.carbonell\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
     "C:\\Users\\p.carbonell\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\p.carbonell\\.nuget\\packages\\otp.net\\1.3.0\\otp.net.1.3.0.nupkg.sha512",
     "C:\\Users\\p.carbonell\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
     "C:\\Users\\p.carbonell\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],

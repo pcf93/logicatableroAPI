@@ -53,6 +53,19 @@ namespace Cordelia.LoginRegister.API.Controllers
         }
 
         [HttpPost]
+        [Route("generarSecretKey")]
+        public async Task<ActionResult<User>> GenerarSecretKey(int usuarioId)
+        {
+            var result = await _service.GenerateSecretKeyAsync(usuarioId);
+
+            if (result is null) return BadRequest();
+
+            return Ok(result);
+        }
+
+
+
+        [HttpPost]
         [Route("register")]
         public async Task<ActionResult<User?>> Register(UserRegisterDto newUser)
         {

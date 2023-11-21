@@ -30,7 +30,10 @@ public interface IUserService
     /// <returns></returns>
     Task<User?> UserRegister(UserRegisterDto newUser);
 
-    
+    Task<string?> GenerateSecretKeyAsync(int usuarioId);
+
+
+
 
 
 

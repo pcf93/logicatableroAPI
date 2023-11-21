@@ -128,3 +128,4 @@ C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatabler
 C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.API\bin\Debug\net6.0\AspNetCoreRateLimit.dll
 C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\p.carbonell\OneDrive - Innovation Strategies S.L\Documents\logicatableroAPI\Cordelia.LoginRegister.API\bin\Debug\net6.0\Otp.NET.dll

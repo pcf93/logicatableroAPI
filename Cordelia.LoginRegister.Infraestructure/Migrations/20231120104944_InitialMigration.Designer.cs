@@ -9,18 +9,18 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Cordelia.LoginRegister.Infraestructure.Migrations
+namespace Enfonsalaflota.Infraestructure.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20231107172958_NuevaMigracion")]
-    partial class NuevaMigracion
+    [Migration("20231120104944_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasDefaultSchema("public")
+                .HasDefaultSchema("pcfapi")
                 .HasAnnotation("ProductVersion", "7.0.12")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
@@ -58,7 +58,7 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
 
                     b.HasIndex("MessageSenderId");
 
-                    b.ToTable("Message", "public");
+                    b.ToTable("Message", "pcfapi");
                 });
 
             modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.User", b =>
@@ -72,6 +72,15 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
                     b.Property<bool>("DarkMode")
                         .HasColumnType("boolean");
 
+                    b.Property<byte[]>("PasswordHash")
+                        .HasColumnType("bytea");
+
+                    b.Property<byte[]>("PasswordSalt")
+                        .HasColumnType("bytea");
+
+                    b.Property<string>("SecretKet")
+                        .HasColumnType("text");
+
                     b.Property<DateTime>("UserBirthDate")
                         .HasColumnType("timestamp with time zone");
 
@@ -84,16 +93,7 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
                     b.Property<int>("UserLanguageId")
                         .HasColumnType("integer");
 
-                    b.Property<string>("UserLastName")
-                        .HasColumnType("text");
-
                     b.Property<string>("UserName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("UserNickname")
-                        .HasColumnType("text");
-
-                    b.Property<string>("UserPassword")
                         .HasColumnType("text");
 
                     b.Property<string>("UserPhone")
@@ -104,43 +104,39 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
 
                     b.HasKey("UserId");
 
-                    b.HasIndex("UserLanguageId");
+                    b.HasIndex("UserEmail")
+                        .IsUnique();
 
-                    b.HasIndex("UserTypeId");
+                    b.HasIndex("UserName")
+                        .IsUnique();
 
-                    b.ToTable("User", "public");
+                    b.ToTable("User", "pcfapi");
                 });
 
-            modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.UserLanguage", b =>
+            modelBuilder.Entity("Enfonsalaflota.Domain.Model.FriendRequest", b =>
                 {
-                    b.Property<int>("UserLanguageId")
+                    b.Property<int>("FriendRequestId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("UserLanguageId"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("FriendRequestId"));
 
-                    b.Property<string>("UserLanguageName")
-                        .HasColumnType("text");
-
-                    b.HasKey("UserLanguageId");
-
-                    b.ToTable("UserLanguage", "public");
-                });
-
-            modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.UserType", b =>
-                {
-                    b.Property<int>("UserTypeId")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("FriendRequestReceiverId")
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("UserTypeId"));
+                    b.Property<int>("FriendRequestSenderId")
+                        .HasColumnType("integer");
 
-                    b.Property<string>("UserTypeName")
-                        .HasColumnType("text");
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
 
-                    b.HasKey("UserTypeId");
+                    b.HasKey("FriendRequestId");
 
-                    b.ToTable("UserType", "public");
+                    b.HasIndex("FriendRequestReceiverId");
+
+                    b.HasIndex("FriendRequestSenderId");
+
+                    b.ToTable("FriendRequest", "pcfapi");
                 });
 
             modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.Message", b =>
@@ -162,40 +158,34 @@ namespace Cordelia.LoginRegister.Infraestructure.Migrations
                     b.Navigation("MessageSender");
                 });
 
-            modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.User", b =>
+            modelBuilder.Entity("Enfonsalaflota.Domain.Model.FriendRequest", b =>
                 {
-                    b.HasOne("Cordelia.LoginRegister.Domain.Model.UserLanguage", "UserLanguage")
-                        .WithMany("Users")
-                        .HasForeignKey("UserLanguageId")
+                    b.HasOne("Cordelia.LoginRegister.Domain.Model.User", "FriendRequestReceiver")
+                        .WithMany("ReceivedFriendRequests")
+                        .HasForeignKey("FriendRequestReceiverId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Cordelia.LoginRegister.Domain.Model.UserType", "UserType")
-                        .WithMany("Users")
-                        .HasForeignKey("UserTypeId")
+                    b.HasOne("Cordelia.LoginRegister.Domain.Model.User", "FriendRequestSender")
+                        .WithMany("SentFriendRequests")
+                        .HasForeignKey("FriendRequestSenderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("UserLanguage");
+                    b.Navigation("FriendRequestReceiver");
 
-                    b.Navigation("UserType");
+                    b.Navigation("FriendRequestSender");
                 });
 
             modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.User", b =>
                 {
+                    b.Navigation("ReceivedFriendRequests");
+
                     b.Navigation("ReceivedMessages");
 
+                    b.Navigation("SentFriendRequests");
+
                     b.Navigation("SentMessages");
-                });
-
-            modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.UserLanguage", b =>
-                {
-                    b.Navigation("Users");
-                });
-
-            modelBuilder.Entity("Cordelia.LoginRegister.Domain.Model.UserType", b =>
-                {
-                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }
