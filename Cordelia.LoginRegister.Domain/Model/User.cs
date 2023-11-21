@@ -41,7 +41,8 @@ namespace Cordelia.LoginRegister.Domain.Model;
 
         public ICollection<FriendRequest> ReceivedFriendRequests { get; set; }
 
+        public ICollection<Match> Player1Matches { get; set; }
 
-
+        public ICollection<Match> Player2Matches { get; set; }
 }
 

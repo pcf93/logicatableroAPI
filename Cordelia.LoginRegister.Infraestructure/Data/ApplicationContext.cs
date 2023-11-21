@@ -10,6 +10,8 @@ public class ApplicationContext : DbContext
     public virtual DbSet<Message> Message { get; set; }
     public virtual DbSet<FriendRequest> FriendRequest { get; set; }
 
+    public virtual DbSet<Match> Match { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.HasDefaultSchema("pcfapi");
@@ -40,6 +42,16 @@ public class ApplicationContext : DbContext
             .HasOne(x => x.FriendRequestSender)
             .WithMany(x => x.SentFriendRequests)
             .HasForeignKey(x => x.FriendRequestSenderId);
+
+        modelBuilder.Entity<Match>()
+            .HasOne(x => x.Player1)
+            .WithMany(x => x.Player1Matches)
+            .HasForeignKey(x => x.Player1Id);
+
+        modelBuilder.Entity<Match>()
+            .HasOne(x => x.Player2)
+            .WithMany(x => x.Player2Matches)
+            .HasForeignKey(x => x.Player2Id);
 
     }
 
