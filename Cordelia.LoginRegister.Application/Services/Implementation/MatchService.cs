@@ -54,18 +54,25 @@ namespace Enfonsalaflota.Application.Services.Implementation
         public async Task<Match> JoinMatchmakingMatch(MatchJoinDto matchToJoin)
         {
 
-            var matchResult = await _matchRepository.GetAsync(x => x.MatchStartType == MatchStartType.Matchmaking && x.ArrayPlayer2 == null);
+            var matchResult = await _matchRepository.GetAsync(x => x.MatchStartType == MatchStartType.Matchmaking && x.ArrayPlayer2 == null && x.Player1Id != matchToJoin.Player2Id);
 
             var match = matchResult.FirstOrDefault();
 
-            match.ArrayPlayer2 = matchToJoin.ArrayPlayer2;
-            match.Player2Id = matchToJoin.Player2Id;
-            match.MatchStatus = MatchStatus.Iniciat;
+            if (match != null) {
+                match.ArrayPlayer2 = matchToJoin.ArrayPlayer2;
+                match.Player2Id = matchToJoin.Player2Id;
+                match.MatchStatus = MatchStatus.Iniciat;
 
-            _matchRepository.Update(match);
-            await _unitOfWork.SaveAsync();
+                _matchRepository.Update(match);
+                await _unitOfWork.SaveAsync();
 
-            return await Task.FromResult(match);
+                return await Task.FromResult(match);
+            } else
+            {
+                return null;
+            }
+
+            
 
         }
 
