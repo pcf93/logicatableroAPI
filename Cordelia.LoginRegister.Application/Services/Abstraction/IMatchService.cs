@@ -13,6 +13,8 @@ namespace Enfonsalaflota.Application.Services.Abstraction
 
         Task<Match> GetMatchmakingMatch();
 
+        Task<List<Match>> GetActiveMatchesByUserIdAsync(int id);
+
         Task<Match> CreateMatchmakingMatch(MatchCreateDto newMatch);
 
         Task<Match> JoinMatchmakingMatch(MatchJoinDto matchToJoin);

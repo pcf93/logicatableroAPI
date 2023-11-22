@@ -33,6 +33,13 @@ namespace Enfonsalaflota.Application.Services.Implementation
 
         }
 
+        public async Task<List<Match>> GetActiveMatchesByUserIdAsync(int id)
+        {
+            var matches = await _matchRepository.GetAsync(x => (x.Player1Id == id || x.Player2Id == id) && x.MatchStatus == MatchStatus.Iniciat);
+
+            return await Task.FromResult(matches.ToList());
+        }
+
         public async Task<Match> CreateMatchmakingMatch(MatchCreateDto newMatch)
         {
             var matchToCreate = new Match()

@@ -29,6 +29,20 @@ public class MatchController : ControllerBase
         return Ok(result);
     }
 
+    [HttpGet]
+    [Route("getActiveMatches/{id}")]
+    public async Task<ActionResult<List<Match>>> GetMatchesById(int id)
+    {
+        var result = await _service.GetActiveMatchesByUserIdAsync(id);
+
+        if (result is null)
+        {
+            return BadRequest();
+        }
+
+        return Ok(result);
+    }
+    
     [HttpPost]
     [Route("createMatchmaking")]
     public async Task<ActionResult<Match>> CreateMatchmakingMatch(MatchCreateDto newMatch)
