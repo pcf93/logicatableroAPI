@@ -11,6 +11,9 @@ namespace Enfonsalaflota.Application.Services.Abstraction
     public interface IMatchService
     {
 
+        Task<Match> GetMatchByIdAsync(int id);
+
+
         Task<Match> GetMatchmakingMatch();
 
         Task<List<Match>> GetActiveMatchesByUserIdAsync(int id);

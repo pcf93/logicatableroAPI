@@ -24,6 +24,13 @@ namespace Enfonsalaflota.Application.Services.Implementation
 
         }
 
+        public async Task<Match> GetMatchByIdAsync(int id)
+        {
+            var match = await _matchRepository.GetByIdAsync(id);
+
+            return await Task.FromResult(match);
+        }
+        
         public async Task<Match> GetMatchmakingMatch()
         {
 

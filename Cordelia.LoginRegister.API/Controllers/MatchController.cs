@@ -30,6 +30,20 @@ public class MatchController : ControllerBase
     }
 
     [HttpGet]
+    [Route("getMatch/{id}")]
+    public async Task<ActionResult<Match>> GetMatchById(int id)
+    {
+        var result = await _service.GetMatchByIdAsync(id);
+
+        if (result is null)
+        {
+            return BadRequest();
+        }
+
+        return Ok(result);
+    }
+    
+    [HttpGet]
     [Route("getActiveMatches/{id}")]
     public async Task<ActionResult<List<Match>>> GetMatchesById(int id)
     {
