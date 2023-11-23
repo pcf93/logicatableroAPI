@@ -92,7 +92,7 @@ namespace Enfonsalaflota.Application.Services.Implementation
 
         }
 
-        public async Task<bool> ShootCoordinateAsync(int index, int matchId, int attackerId)
+        public async Task<int> ShootCoordinateAsync(int index, int matchId, int attackerId)
         {
             var match = await _matchRepository.GetByIdAsync(matchId);
 
@@ -106,6 +106,11 @@ namespace Enfonsalaflota.Application.Services.Implementation
 
                         match.PlayerTurnId = match.Player2Id;
 
+                        _matchRepository.Update(match);
+                        await _unitOfWork.SaveAsync();
+
+                        return 1;
+
                     } else
                     {
                         match.ArrayPlayer2[index] = 3;
@@ -117,17 +122,25 @@ namespace Enfonsalaflota.Application.Services.Implementation
                             match.MatchStatus = MatchStatus.Acabat;
                         }
 
+                        _matchRepository.Update(match);
+                        await _unitOfWork.SaveAsync();
+
+                        return 2;
+
                     }
 
-                }
-
-                if (attackerId == match.Player2Id) { 
+                } else { 
 
                     if (match.ArrayPlayer1[index] == 0)
                     {
                         match.ArrayPlayer1[index] = 2;
 
                         match.PlayerTurnId = match.Player1Id;
+
+                        _matchRepository.Update(match);
+                        await _unitOfWork.SaveAsync();
+
+                        return 1;
 
                     }
                     else
@@ -141,18 +154,18 @@ namespace Enfonsalaflota.Application.Services.Implementation
                             match.MatchStatus = MatchStatus.Acabat;
                         }
 
+                        _matchRepository.Update(match);
+                        await _unitOfWork.SaveAsync();
+
+                        return 2;
+
                     }
 
                 }
 
-                _matchRepository.Update(match);
-                await _unitOfWork.SaveAsync();
-
-                return true;
-
             } else {
 
-                return false;
+                return 0;
 
             }
 

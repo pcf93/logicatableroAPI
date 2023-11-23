@@ -90,11 +90,11 @@ public class MatchController : ControllerBase
     [HttpPut]
     [Route("shoot")]
 
-    public async Task<ActionResult<bool>> ShootCoordinateAsync(MatchShootDto shootData)
+    public async Task<ActionResult<int>> ShootCoordinateAsync(MatchShootDto shootData)
     {
         var result = await _service.ShootCoordinateAsync(shootData.Coordinate, shootData.MatchId, shootData.PlayerId);
 
-        if (!result)
+        if (result == 0)
         {
             return BadRequest();
         }
