@@ -22,5 +22,7 @@ namespace Enfonsalaflota.Application.Services.Abstraction
 
         Task<Match> JoinMatchmakingMatch(MatchJoinDto matchToJoin);
 
+        Task<bool> ShootCoordinateAsync(int index, int matchId, int attackerId);
+
     }
 }

@@ -90,7 +90,71 @@ namespace Enfonsalaflota.Application.Services.Implementation
                 return null;
             }
 
-            
+        }
+
+        public async Task<bool> ShootCoordinateAsync(int index, int matchId, int attackerId)
+        {
+            var match = await _matchRepository.GetByIdAsync(matchId);
+
+            if (match != null)
+            {
+                if (attackerId == match.Player1Id)
+                {
+                    if (match.ArrayPlayer2[index] == 0)
+                    {
+                        match.ArrayPlayer2[index] = 2;
+
+                        match.PlayerTurnId = match.Player2Id;
+
+                    } else
+                    {
+                        match.ArrayPlayer2[index] = 3;
+                        match.VidasPlayer2--;
+
+                        if (match.VidasPlayer2 == 0)
+                        {
+                            match.GanadorId = match.Player1Id;
+                            match.MatchStatus = MatchStatus.Acabat;
+                        }
+
+                    }
+
+                }
+
+                if (attackerId == match.Player2Id) { 
+
+                    if (match.ArrayPlayer1[index] == 0)
+                    {
+                        match.ArrayPlayer1[index] = 2;
+
+                        match.PlayerTurnId = match.Player1Id;
+
+                    }
+                    else
+                    {
+                        match.ArrayPlayer1[index] = 3;
+                        match.VidasPlayer1--;
+
+                        if (match.VidasPlayer1 == 0)
+                        {
+                            match.GanadorId = match.Player2Id;
+                            match.MatchStatus = MatchStatus.Acabat;
+                        }
+
+                    }
+
+                }
+
+                _matchRepository.Update(match);
+                await _unitOfWork.SaveAsync();
+
+                return true;
+
+            } else {
+
+                return false;
+
+            }
 
         }
 
