@@ -44,5 +44,10 @@ namespace Cordelia.LoginRegister.Domain.Model;
         public ICollection<Match> Player1Matches { get; set; }
 
         public ICollection<Match> Player2Matches { get; set; }
+
+        public ICollection<Match> WinnerInMatches {  get; set; }
+
+        public ICollection<Match> HasTurnInMatches { get; set; }
+
 }
 

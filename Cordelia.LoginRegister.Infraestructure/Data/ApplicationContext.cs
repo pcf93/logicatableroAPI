@@ -53,6 +53,16 @@ public class ApplicationContext : DbContext
             .WithMany(x => x.Player2Matches)
             .HasForeignKey(x => x.Player2Id);
 
+        modelBuilder.Entity<Match>()
+            .HasOne(x => x.PlayerWinner)
+            .WithMany(x => x.WinnerInMatches)
+            .HasForeignKey(x => x.GanadorId);
+
+        modelBuilder.Entity<Match>()
+            .HasOne(x => x.PlayerTurn)
+            .WithMany(x => x.HasTurnInMatches)
+            .HasForeignKey(x => x.PlayerTurnId);
+
     }
 
     public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options) //con este constructor ya pasamos la cadena de conexión al contexto

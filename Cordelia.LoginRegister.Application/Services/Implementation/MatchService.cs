@@ -54,6 +54,10 @@ namespace Enfonsalaflota.Application.Services.Implementation
                 Player1Id = newMatch.Player1Id,
                 ArrayPlayer1 = newMatch.ArrayPlayer1,
                 Player2Id = newMatch.Player1Id,
+                PlayerTurnId = newMatch.Player1Id,
+                GanadorId = newMatch.Player1Id,
+                VidasPlayer1 = 20,
+                VidasPlayer2 = 20,
                 MatchStatus = MatchStatus.Pendent,
                 MatchStartType = MatchStartType.Matchmaking
 

@@ -19,6 +19,14 @@ public class Match
 
     public int[] ArrayPlayer2 { get; set; }
 
+    public int VidasPlayer1 { get; set; }
+
+    public int VidasPlayer2 { get; set; }
+
+    public int PlayerTurnId {  get; set; }
+    
+    public int GanadorId { get; set; }
+
     public MatchStatus MatchStatus { get; set; }
 
     public MatchStartType MatchStartType { get; set; }
@@ -26,6 +34,10 @@ public class Match
     public User Player1 { get; set; }
 
     public User Player2 { get; set; }
+
+    public User PlayerWinner { get; set; }
+
+    public User PlayerTurn { get; set; }
 }
 
 public enum MatchStatus
