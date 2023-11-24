@@ -111,7 +111,7 @@ namespace Enfonsalaflota.Application.Services.Implementation
 
                         return 1;
 
-                    } else
+                    } else if (match.ArrayPlayer2[index] == 1)
                     {
                         match.ArrayPlayer2[index] = 3;
                         match.VidasPlayer2--;
@@ -127,6 +127,9 @@ namespace Enfonsalaflota.Application.Services.Implementation
 
                         return 2;
 
+                    } else
+                    {
+                        return 0;
                     }
 
                 } else { 
@@ -143,7 +146,7 @@ namespace Enfonsalaflota.Application.Services.Implementation
                         return 1;
 
                     }
-                    else
+                    else if (match.ArrayPlayer1[index] == 1)
                     {
                         match.ArrayPlayer1[index] = 3;
                         match.VidasPlayer1--;
@@ -159,6 +162,9 @@ namespace Enfonsalaflota.Application.Services.Implementation
 
                         return 2;
 
+                    } else
+                    {
+                        return 0;
                     }
 
                 }
