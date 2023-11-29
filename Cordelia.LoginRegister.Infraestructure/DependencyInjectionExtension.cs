@@ -35,6 +35,7 @@ public static class DependencyInjectionExtension
         services.AddScoped<IMessageRepository, MessageRepository>();
         services.AddScoped<IGenericRepository<User>, GenericRepository<User>>();
         services.AddScoped<IGenericRepository<Message>, GenericRepository<Message>>();
+        services.AddScoped<IGenericRepository<MatchMessage>, GenericRepository<MatchMessage>>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         return services;

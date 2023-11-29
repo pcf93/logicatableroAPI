@@ -18,6 +18,8 @@ public interface IUnitOfWork : IDisposable
 
     public IGenericRepository<Match> GetMatchRepository();
 
+    public IGenericRepository<MatchMessage> GetMatchMessageRepository();
+
     public Task SaveAsync();
 
 }

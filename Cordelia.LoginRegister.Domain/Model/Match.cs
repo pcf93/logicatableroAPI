@@ -38,6 +38,8 @@ public class Match
     public User PlayerWinner { get; set; }
 
     public User PlayerTurn { get; set; }
+
+    public ICollection<MatchMessage> MatchMessage { get; set; }
 }
 
 public enum MatchStatus

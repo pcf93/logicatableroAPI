@@ -49,5 +49,7 @@ namespace Cordelia.LoginRegister.Domain.Model;
 
         public ICollection<Match> HasTurnInMatches { get; set; }
 
+        public ICollection<MatchMessage> MatchMessages { get; set; }
+
 }
 

@@ -14,7 +14,7 @@ namespace Cordelia.LoginRegister.Application.Services.Implementation
         private GenericRepository<Message> _messageRepository;
         private GenericRepository<FriendRequest> _friendRequestRepository;
         private GenericRepository<Match> _matchRepository;
-
+        private GenericRepository<MatchMessage> _matchMessageRepository;
 
         public UnitOfWork(ApplicationContext dbContext)
         {
@@ -63,6 +63,17 @@ namespace Cordelia.LoginRegister.Application.Services.Implementation
                 _matchRepository = new GenericRepository<Match>(_dbContext);
             }
             return _matchRepository;
+
+        }
+
+        public IGenericRepository<MatchMessage> GetMatchMessageRepository()
+        {
+
+            if (_matchMessageRepository == null)
+            {
+                _matchMessageRepository = new GenericRepository<MatchMessage>(_dbContext);
+            }
+            return _matchMessageRepository;
 
         }
 

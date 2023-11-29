@@ -12,6 +12,8 @@ public class ApplicationContext : DbContext
 
     public virtual DbSet<Match> Match { get; set; }
 
+    public virtual DbSet<MatchMessage> MatchMessage { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.HasDefaultSchema("pcfapi");
@@ -62,6 +64,16 @@ public class ApplicationContext : DbContext
             .HasOne(x => x.PlayerTurn)
             .WithMany(x => x.HasTurnInMatches)
             .HasForeignKey(x => x.PlayerTurnId);
+
+        modelBuilder.Entity<MatchMessage>()
+            .HasOne(x => x.MessageSender)
+            .WithMany(x => x.MatchMessages)
+            .HasForeignKey(x => x.MessageSenderId);
+
+        modelBuilder.Entity<MatchMessage>()
+            .HasOne(x => x.Match)
+            .WithMany(x => x.MatchMessage)
+            .HasForeignKey(x => x.MatchId);
 
     }
 
