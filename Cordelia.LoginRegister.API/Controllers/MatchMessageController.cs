@@ -18,7 +18,7 @@ namespace Enfonsalaflota.API.Controllers
 
         public MatchMessageController(IMatchMessageService service) { _service = service; }
 
-        [HttpGet]
+        [HttpGet, Authorize]
         [Route("{matchId}")]
 
         public async Task<ActionResult<List<MatchMessage>>> GetMessagesByMatchId( int matchId)
@@ -34,7 +34,7 @@ namespace Enfonsalaflota.API.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet, Authorize]
         [Route("{matchId}/{userId}")]
         public async Task<ActionResult<MatchMessage>> GetLastMatchMessage (int userId, int matchId)
         {
@@ -48,7 +48,7 @@ namespace Enfonsalaflota.API.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost, Authorize]
         [Route("add")]
         public async Task<ActionResult<MatchMessage>> InsertMatchMessage (MatchMessageInsertDto message)
         {

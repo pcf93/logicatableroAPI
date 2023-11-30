@@ -29,10 +29,6 @@ public interface IUserService
     /// <param name="newUser"></param>
     /// <returns></returns>
     Task<User?> UserRegister(UserRegisterDto newUser);
-
-    
-
-
-
-
+    Task<User> UserUpdate(UserUpdateDto updateUser, int userId);
+    Task<User> UserDelete(int id);
 }

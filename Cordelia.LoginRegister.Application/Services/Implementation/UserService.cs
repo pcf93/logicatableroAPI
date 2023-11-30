@@ -126,6 +126,56 @@ public class UserService : IUserService
         else { return null; }
     }
 
+    public async Task<User?> UserUpdate(UserUpdateDto updateUser, int userId)
+    {
+
+        var user = _userRepository.GetEntityContext().FirstOrDefault(user => user.UserId == userId);
+
+        if (user != null)
+        {
+
+            if (VerifyPasswordHash(updateUser.UserOldPassword, user.PasswordHash, user.PasswordSalt))
+            {
+
+                CreatePasswordHash(updateUser.UserNewPassword, out byte[] passwordHash, out byte[] passwordSalt);
+
+                user.UserName = updateUser.UserName;
+                user.PasswordHash = passwordHash;
+                user.PasswordSalt = passwordSalt;
+                user.UserEmail = updateUser.UserEmail;
+                user.UserPhone = updateUser.UserPhone;
+                user.UserBirthDate = updateUser.UserBirthDate;
+                user.UserCity = updateUser.UserCity;
+
+                _userRepository.Update(user);
+                await _unitOfWork.SaveAsync();
+
+                return await Task.FromResult(user);
+
+            } else
+            {
+                return null;
+            }
+
+        }
+
+        else { return null; }
+
+    }
+
+    public async Task<User?> UserDelete(int id)
+    {
+        var user = await _userRepository.GetByIdAsync(id);
+
+        if (user != null)
+        {
+            _userRepository.Delete(user);
+            await _unitOfWork.SaveAsync();
+        }
+
+        return await Task.FromResult(user);
+    }
+
     private string CreateToken(User user)
     {
         List<Claim> claims = new List<Claim>

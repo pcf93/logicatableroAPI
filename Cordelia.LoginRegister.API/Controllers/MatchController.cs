@@ -15,7 +15,7 @@ public class MatchController : ControllerBase
 
     public MatchController(IMatchService service) { _service = service; }
 
-    [HttpGet]
+    [HttpGet, Authorize]
     [Route("findMatchmaking")]
     public async Task<ActionResult<Match>> FindMatchmakingMatch(int id)
     {
@@ -29,7 +29,7 @@ public class MatchController : ControllerBase
         return Ok(result);
     }
 
-    [HttpGet]
+    [HttpGet, Authorize]
     [Route("getMatch/{id}")]
     public async Task<ActionResult<Match>> GetMatchById(int id)
     {
@@ -43,7 +43,7 @@ public class MatchController : ControllerBase
         return Ok(result);
     }
     
-    [HttpGet]
+    [HttpGet, Authorize]
     [Route("getActiveMatches/{id}")]
     public async Task<ActionResult<List<Match>>> GetMatchesById(int id)
     {
@@ -57,7 +57,7 @@ public class MatchController : ControllerBase
         return Ok(result);
     }
     
-    [HttpPost]
+    [HttpPost, Authorize]
     [Route("createMatchmaking")]
     public async Task<ActionResult<Match>> CreateMatchmakingMatch(MatchCreateDto newMatch)
     {
@@ -71,7 +71,7 @@ public class MatchController : ControllerBase
         return Ok(result);
     }
 
-    [HttpPut]
+    [HttpPut, Authorize]
     [Route("joinMatchmaking")]
 
     public async Task<ActionResult<Match>> JoinMatchmakingMatch(MatchJoinDto matchToJoin)
@@ -87,7 +87,7 @@ public class MatchController : ControllerBase
 
     }
 
-    [HttpPut]
+    [HttpPut, Authorize]
     [Route("shoot")]
 
     public async Task<ActionResult<int>> ShootCoordinateAsync(MatchShootDto shootData)

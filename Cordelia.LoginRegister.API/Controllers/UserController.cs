@@ -2,6 +2,7 @@
 using Cordelia.LoginRegister.Application.Services.Abstraction;
 using Cordelia.LoginRegister.Domain.Model;
 using Cordelia.LoginRegister.Infraestructure.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cordelia.LoginRegister.API.Controllers
@@ -63,9 +64,30 @@ namespace Cordelia.LoginRegister.API.Controllers
             return Ok(result);
         }
 
+        [HttpPut, Authorize]
+        [Route("update/{id}")]
 
+        public async Task<ActionResult<User?>> UpdateUser(UserUpdateDto updateUser, int id)
+        {
+            var result = await _service.UserUpdate(updateUser, id);
 
+            if (result is null) return BadRequest();
 
+            return Ok(result);
+
+        }
+
+        [HttpDelete, Authorize]
+        [Route("delete/{id}")]
+
+        public async Task<ActionResult<User?>> DeleteUser(int id)
+        {
+            var result = await _service.UserDelete(id);
+
+            if (result is null) return BadRequest();
+
+            return Ok(result);
+        }
 
     }
 }
